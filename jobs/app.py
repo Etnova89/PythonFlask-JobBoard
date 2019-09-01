@@ -37,4 +37,4 @@ def jobs():
 
 @app.route('/job/<job_id>')
 def job():
-    return render_template('job.hmtl')
+    return render_template('job.html')
